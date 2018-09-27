@@ -1,7 +1,4 @@
 const os = require('os');
-
-
-const os = require('os');
 const fs = require('fs');
 
 const IP_COUNT_FILENAME = 'IP_C_';
