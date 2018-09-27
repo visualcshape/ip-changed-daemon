@@ -1,7 +1,7 @@
 #!/bin/sh
 # change first argument to change the interface you want to check
 node ./index.js en0
-if [ $? -eq 1] 
+if [ $? -eq 1 ] 
 then
     echo "Number of IPs changed"
     # Insert the command you want to execute here
