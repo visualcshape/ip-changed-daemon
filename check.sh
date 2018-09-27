@@ -13,3 +13,4 @@ then
 elif [$? -eq 0]
 then
     echo "Number of IPs does not changed or this is the first time checking"
+fi
