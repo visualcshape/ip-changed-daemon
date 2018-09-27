@@ -10,7 +10,7 @@ then
 elif [ $? -eq -1 ]
 then
     echo "There was an error. Check logs to get detail"
-elif [$? -eq 0 ]
+elif [ $? -eq 0 ]
 then
     echo "Number of IPs does not changed or this is the first time checking"
 fi
