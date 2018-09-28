@@ -5,7 +5,7 @@ Check the number of IPs that bind to an interface is chaged or not and execute a
 1. `Node` has permission to write in this folder.
 
 # Usage
-To change watching network interface, edit `eth0`
+To change watching network interface, edit `eth0` to the desired network interface name.
 ```
 node ./index.js eth0
 ```
