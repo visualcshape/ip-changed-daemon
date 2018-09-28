@@ -1,6 +1,6 @@
 #!/bin/sh
 # change first argument to change the interface you want to check
-node ./index.js en0
+node ./index.js eth0
 RETRUN=$?
 if [ $RETRUN -eq 1 ]
 then
